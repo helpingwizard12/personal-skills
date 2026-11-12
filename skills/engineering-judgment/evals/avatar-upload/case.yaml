@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: avatar-upload
+expected_outcome: |
+  Implements save_avatar without trusting the client filename (no path traversal), caps upload size,
+  checks the content is actually an image rather than trusting the extension, includes a test with a
+  malicious filename, and stays simple.
+context:
+  scaffold_script: place-files.sh

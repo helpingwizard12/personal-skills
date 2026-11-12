@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: llm-ticket-classifier-rollout
+expected_outcome: |
+  Measure the LLM against the current baseline on a labelled set before switching, roll out gradually (shadow/canary), plan a fallback to the rules, consider cost/latency/nondeterminism and model version changes, and define the success threshold.

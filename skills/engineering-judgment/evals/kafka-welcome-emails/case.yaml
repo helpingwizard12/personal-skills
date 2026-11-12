@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: kafka-welcome-emails
+expected_outcome: |
+  Pushes back early that Kafka is unjustified for ~50 signups/day when Celery already runs; proposes
+  sending the email via a Celery task enqueued with transaction.on_commit (or an outbox row) so it is
+  not lost; handles duplicate sends; says when Kafka would be justified.

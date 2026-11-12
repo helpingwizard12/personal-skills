@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: weekly-report-timezone-bug
+expected_outcome: |
+  Identifies that events are bucketed by UTC instead of the user's own time zone, fixes it by
+  converting each timestamp to the user's IANA zone (zoneinfo) before computing the week, adds a
+  regression test for a non-UTC user near the Monday boundary, and keeps existing tests passing.
+context:
+  scaffold_script: place-files.sh

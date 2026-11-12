@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: small-question-stays-small
+expected_outcome: |
+  A short, direct answer (likely a dataclass, with a brief reason) without turning a small question into a heavyweight design review.

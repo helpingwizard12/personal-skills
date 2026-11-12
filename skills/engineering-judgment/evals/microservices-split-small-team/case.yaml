@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: microservices-split-small-team
+expected_outcome: |
+  Recommends against (or strongly defers) a full microservices split for now, targets the real pain (slow deploys, flaky tests) with cheaper changes to the monolith, accounts for operational cost, and says what evidence would justify revisiting the split.
