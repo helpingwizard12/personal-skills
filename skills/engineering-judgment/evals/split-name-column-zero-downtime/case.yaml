@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: split-name-column-zero-downtime
+expected_outcome: |
+  A phased expand/contract migration that keeps full_name working for old clients, backfills in batches, validates, and only removes the old column later; flags that the name split is lossy/irreversible and a code rollback won't undo data changes.

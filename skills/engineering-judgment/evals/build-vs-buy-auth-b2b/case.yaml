@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: build-vs-buy-auth-b2b
+expected_outcome: |
+  Compares building vs buying with total cost (engineering time, security risk, ongoing maintenance) versus vendor price and lock-in, gives a recommendation for this team size, notes migration of existing users, and says to verify current vendor pricing/features.

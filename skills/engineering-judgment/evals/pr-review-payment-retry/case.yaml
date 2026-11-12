@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: pr-review-payment-retry
+expected_outcome: |
+  A clear 'request changes' review that leads with the incident risks: retries can double-charge
+  without an idempotency key, retrying every exception (including declines) is wrong, logging
+  customer.__dict__ leaks the card token and personal data, and dollars-as-float rounding can
+  undercharge. Also calls the strategy/factory unnecessary for one implementation.
+context:
+  scaffold_script: place-files.sh
