@@ -1,0 +1,7 @@
+interface:
+  display_name: "Latticework"
+  short_description: "Think through ideas and decisions with mental models"
+  default_prompt: "Use $latticework to stress-test this idea with the mental models that fit, then give me a verdict and a next step."
+
+policy:
+  allow_implicit_invocation: true
