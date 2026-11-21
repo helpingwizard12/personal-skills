@@ -1,6 +1,6 @@
 ---
 name: latticework
-description: A portable second brain of mental models (starting with Naval Ravikant's "Building Judgment" models from The Almanack of Naval Ravikant) for thinking through ideas with the user. Use whenever the user is exploring a new idea, weighing a life, career, business, or investment choice, stress-testing a plan, judging a claim or a piece of research, examining their own beliefs, or asks to "think this through", "poke holes", "what am I missing", or "apply mental models" — even if they never say "mental model". For software design and engineering tradeoffs, prefer engineering-judgment; use this skill alongside it only when the question is really about the idea, the bet, or the person's reasoning.
+description: A portable second brain of mental models (Naval Ravikant's "Building Judgment" models from The Almanack of Naval Ravikant, plus classic models such as Parkinson's law, Chesterton's fence, Pareto, Lindy, and common biases) for thinking through ideas with the user. Use whenever the user is exploring a new idea, weighing a life, career, business, or investment choice, stress-testing a plan, judging a claim or a piece of research, examining their own beliefs, or asks to "think this through", "poke holes", "what am I missing", or "apply mental models" — even if they never say "mental model". For software design and engineering tradeoffs, prefer engineering-judgment; use this skill alongside it only when the question is really about the idea, the bet, or the person's reasoning.
 ---
 
 # Latticework
@@ -34,19 +34,20 @@ When the user is learning, add one reusable question they can carry to similar s
 | Situation | Reach for |
 |---|---|
 | Hard, long-lived choice (job, partner, city, co-founder, big purchase) | If you can't decide, the answer is no · Run uphill · Inversion · Compound interest |
-| New idea, startup, product, or bet | Inversion · Principal-agent · Microeconomics & game theory · Compound interest · Black swans |
-| Judging a claim, study, article, or expert | Falsifiability · Rederive from basics · Self-serving conclusions need a higher bar · Basic math (probability, base rates) |
-| Forecasts, plans, and "this will definitely happen" | Complexity theory · Black swans · Inversion |
-| Incentives, teams, hiring, partnerships, deals | Principal-agent · Game theory · Evolution (what behavior is actually rewarded) |
-| Growth, habits, learning, careers | Compound interest · Calculus (rates of change) · Run uphill |
-| The user's own beliefs, politics, or identity | Shed identity · Package beliefs are suspect · Desire clouds reality |
-| Stuck, overwhelmed, or forcing a decision | Empty time to think · Direction over speed · If you can't decide, the answer is no |
+| Changing or removing an existing rule, process, system, or habit | Chesterton's fence · Inversion · Butterfly effect |
+| New idea, startup, product, or bet | Inversion · Principal-agent · Microeconomics & game theory · Compound interest · Black swans · Lindy effect |
+| Judging a claim, study, article, or expert | Falsifiability · Rederive from basics · Self-serving conclusions need a higher bar · Basic math (probability, base rates) · Halo effect · Dunning–Kruger |
+| Forecasts, plans, and "this will definitely happen" | Complexity theory · Butterfly effect · Black swans · Inversion |
+| Incentives, teams, hiring, partnerships, deals | Principal-agent · Game theory · Evolution (what behavior is actually rewarded) · Halo effect · Hawthorne effect · Diminishing returns |
+| Growth, habits, learning, careers | Compound interest · Calculus (rates of change) · Run uphill · Pareto (80/20) · Diminishing returns · Lindy effect |
+| The user's own beliefs, politics, or identity | Shed identity · Package beliefs are suspect · Desire clouds reality · Dunning–Kruger |
+| Stuck, overwhelmed, or forcing a decision | Empty time to think · Direction over speed · If you can't decide, the answer is no · Pareto (80/20) · Parkinson's law |
 
 The thinking habits in [Thinking principles](references/thinking-principles.md) apply to every case: see reality, keep identity small, prefer clear basics to jargon, and put direction before effort.
 
 ## References
 
-- [Models](references/models.md): each model with Naval's point, when to use it, the questions it forces, and when it misleads.
+- [Models](references/models.md): each model with its source's point (Naval's, or the original author's for models from other sources), when to use it, the questions it forces, and when it misleads.
 - [Thinking principles](references/thinking-principles.md): the judgment and clear-thinking habits from the same section.
 - [Reading list](references/reading-list.md): the people and works Naval names, for going deeper on a model.
 - [Adding models](references/adding-models.md): template and rules for adding models from other books.
@@ -54,4 +55,4 @@ The thinking habits in [Thinking principles](references/thinking-principles.md) 
 
 ## Honesty about sources
 
-Each model separates **Naval's point** (paraphrased, with a page reference to *The Almanack of Naval Ravikant*, Eric Jorgenson, 2020) from **working guidance** that this skill adds. Do not attribute the added guidance to Naval. Do not quote the book at length. When a fact matters to the decision (a market size, a statistic, a current price), verify it rather than reasoning from memory. This skill does not authorize purchases, investments, messages, or other external actions.
+Each Almanack model separates **Naval's point** (paraphrased, with a page reference to *The Almanack of Naval Ravikant*, Eric Jorgenson, 2020) from **working guidance** that this skill adds. Do not attribute the added guidance to Naval. Models from other sources credit their original author or field under **Origin**; do not attribute those to Naval either. Do not quote the book at length. When a fact matters to the decision (a market size, a statistic, a current price), verify it rather than reasoning from memory. This skill does not authorize purchases, investments, messages, or other external actions.

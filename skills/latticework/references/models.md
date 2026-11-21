@@ -2,6 +2,8 @@
 
 Naval lists these in the "Collect Mental Models" part of "Building Judgment" (*The Almanack of Naval Ravikant*, pp. 106–113). He frames mental models as compact pointers to principles you already understand; without the underlying experience they are just quotes (pp. 106–107). Use each model to ask sharper questions about the specific case.
 
+Models from outside the Almanack are in [Models from other sources](#models-from-other-sources) at the end.
+
 Every entry has the same shape:
 
 - **Naval's point** — a paraphrase of what the book says, with page numbers. Only this part is attributed to Naval.
@@ -178,3 +180,139 @@ These appear before the model list but work like models. Details are in [Thinkin
 - **Package beliefs are suspect** (p. 102): beliefs that arrive as part of a group identity should be rechecked from first principles.
 - **Direction over speed** (p. 95): with leverage, which way you go matters more than how hard you push.
 - **Knowledge versus diversification** (p. 106): "The more you know, the less you diversify."
+
+---
+
+## Models from other sources
+
+These come from outside the Almanack. Each **Origin** line credits the person or field the idea comes from; it is not attributed to Naval. They were collected from a popular "mental models" post (see [Sources](sources.md)), which gives only one-line summaries, so the origins below are checked against the original ideas rather than taken from the post. Where a popular version of the idea overstates the evidence, **Misleads when** says so.
+
+## Parkinson's law
+
+**Origin.** C. Northcote Parkinson, in a 1955 essay in *The Economist*: work expands to fill the time available for its completion. He wrote it as satire about growing bureaucracies.
+
+**Use when** setting deadlines, scoping a project, or wondering why a task with plenty of time still finished late.
+
+**Questions**
+- How much time would this take if the deadline were half as long? What would we cut?
+- Is the time limit set by the work, or by the calendar slot it was given?
+- What is the smallest version that would be "done"?
+
+**Misleads when** used to set deadlines too tight to do the work well. Compressing time cuts scope or quality; decide which on purpose.
+
+## Chesterton's fence
+
+**Origin.** G. K. Chesterton, *The Thing* (1929): do not remove a fence until you know why it was put up.
+
+**Use when** changing, removing, or "simplifying" an existing rule, process, tradition, piece of code, or habit that looks pointless.
+
+**Questions**
+- Why was this put here, and by whom? What problem did it solve then?
+- Does that problem still exist? What happens the day after it is gone?
+- Can we find out cheaply (ask, read the history, try removing it in a reversible way)?
+
+**Misleads when** it becomes a defence of every status quo. The rule asks you to find the reason, not to keep the fence. If the reason is gone or cannot be found after a fair look, removing it is fine.
+
+## Diminishing returns
+
+**Origin.** Classical economics (Turgot, Ricardo): if you keep adding one input while the others stay fixed, each extra unit eventually adds less output. "Too many cooks."
+
+**Use when** deciding whether more of the same (people, hours, money, features, practice of one kind) will still pay off.
+
+**Questions**
+- What did the last unit of effort or money actually add?
+- Which fixed input is now the bottleneck?
+- Would changing the mix beat adding more of the same?
+
+**Misleads when** applied to things with increasing returns, such as network effects, compounding skills, or scale economies. Check which curve you are on before assuming it flattens.
+
+## Pareto principle (80/20)
+
+**Origin.** Vilfredo Pareto observed that about 80% of Italy's land was owned by about 20% of people; Joseph Juran later generalised it as "the vital few and the trivial many". In many situations a small share of causes produces most of the effects.
+
+**Use when** prioritising work, customers, bugs, habits, or spending; or when overwhelmed.
+
+**Questions**
+- Which few items produce most of the result here? Do we have data, or a guess?
+- What would we stop doing if we only kept the top fifth?
+- Is the long tail cheap to ignore, or does it hide a risk?
+
+**Misleads when** 80/20 is treated as a law. The ratio is a rough pattern, not a fixed number; check the real distribution. Some "trivial many" items still matter (safety, compliance, one angry key customer).
+
+## Butterfly effect
+
+**Origin.** Meteorologist Edward Lorenz (1972 talk): in chaotic systems, tiny differences in starting conditions grow into very different outcomes, which limits long-range prediction. Closely related to [Complexity theory](#complexity-theory) above.
+
+**Use when** a plan depends on a long-range forecast, or a small early choice (a default, a first hire, a culture norm) will be copied and amplified.
+
+**Questions**
+- Which early, small choices here will be hard to undo once they spread?
+- Does our plan survive if the starting conditions are slightly different?
+- Where can we check in often instead of predicting far ahead?
+
+**Misleads when** used to claim every small action has huge consequences. Most systems damp small changes; only some amplify them. It argues for humility about prediction, not for paralysis.
+
+## Tacitus razor
+
+**Origin.** Popular-internet heuristic: to find who holds power, look at who you are not allowed to criticise. Despite the name, it is not from Tacitus, and the usual quote is wrongly attributed to Voltaire; its traceable source is a 1990s essay by an American white nationalist writer, and it is often used in conspiracy rhetoric. Treat it with care.
+
+**Use when** asking where real power or protected status sits in a team, company, or community.
+
+**Questions**
+- Whose decisions or ideas are never questioned here? Why?
+- Is that because they hold power, or because criticising them has a different cost?
+- What happens to people who do raise criticism?
+
+**Misleads when** used as proof of hidden control. Some people or groups are shielded from criticism because they are vulnerable, not powerful; and many powerful people are criticised constantly. Use it to raise a question, never as an answer.
+
+## Lindy effect
+
+**Origin.** Named in 1964 after Lindy's deli in New York (Albert Goldman), developed by Benoit Mandelbrot and popularised by Nassim Taleb in *Antifragile*: for non-perishable things like ideas, books, and technologies, the longer something has survived, the longer it is likely to keep surviving.
+
+**Use when** choosing what to read or learn, which tools or technologies to bet on, or judging a fashionable new idea against an old one.
+
+**Questions**
+- How long has this been around, and has it survived real tests?
+- Am I choosing the new thing because it is better, or because it is new?
+- Is this a non-perishable (an idea, a practice) or a perishable (a person, a machine, a company)?
+
+**Misleads when** applied to perishable things, which age and die, or used to reject every new idea. Everything old was once new; Lindy is a prior, not a verdict.
+
+## Dunning–Kruger effect
+
+**Origin.** David Dunning and Justin Kruger (1999): people who scored lowest on tests of a skill most overestimated their own score, and top scorers slightly underestimated theirs.
+
+**Use when** judging your own (or someone's) confidence in a domain they are new to, or weighing advice from a confident non-expert.
+
+**Questions**
+- How would I know if I were wrong here? Have I been tested against reality?
+- Is this person's confidence backed by a track record in this specific area?
+- What do experienced people in this field say is hard about it?
+
+**Misleads when** used as an insult ("you're just Dunning–Kruger"). The popular "Mount Stupid" confidence curve is not from the paper, and part of the measured effect may be a statistical artefact. The useful point is narrow: self-assessment is unreliable when you lack the skill to judge your own work.
+
+## Hawthorne effect
+
+**Origin.** Named after 1920s–30s productivity studies at Western Electric's Hawthorne Works; the term was coined by Henry Landsberger in 1958. People change their behaviour when they know they are being observed.
+
+**Use when** designing experiments, pilots, or metrics; or deliberately using accountability (working alongside someone, public commitments) to change your own behaviour.
+
+**Questions**
+- Will the result hold once nobody is watching?
+- Does our pilot or trial measure the change, or the attention the change brought?
+- Could a little visible accountability help here?
+
+**Misleads when** treated as a strong, settled finding. Later re-analyses of the original Hawthorne data found much weaker effects than the legend. Treat it as a known risk to check for, not a guaranteed boost.
+
+## Halo effect
+
+**Origin.** Psychologist Edward Thorndike (1920): one positive trait (looks, fame, success in one field) colours how people judge someone's other, unrelated traits. The reverse, a "horns effect", also happens.
+
+**Use when** judging a person, company, or product, especially one that is successful, famous, or impressive in one area; or when someone successful gives advice outside their field.
+
+**Questions**
+- Which trait is impressing me, and is it relevant to what I am judging?
+- Would I accept this claim from someone without that track record?
+- What does this person's record show in this specific area?
+
+**Misleads when** it makes you discount real skill that does transfer. Some abilities generalise; check the specific track record rather than dismissing everything.
