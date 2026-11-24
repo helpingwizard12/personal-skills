@@ -21,3 +21,12 @@ Automatic selection is enabled in the skill metadata.
 ### Sources
 
 See [source availability and links](skills/engineering-judgment/references/sources.md). Books and downloaded excerpts are not bundled. No source-book redistribution rights are asserted.
+
+## Learn
+
+Teach any concept through scenario-based learning: put the learner in a role facing a real problem, work through concrete numbers, and name the jargon last.
+
+### Use
+
+> /learn compound interest
+> /learn Kubernetes as if I run a restaurant
